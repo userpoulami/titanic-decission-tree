@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4><a href="report.html">Click Here To See Data Analysis</a></h4>
+
+    <h1>Titanic - Machine Learning from Disaster</h1>
+    <div class=form>
+        <form action="/predict" method="POST">
+            <label for="Pclass">Pclass(Ticket class 1 = 1st, 2 = 2nd, 3 = 3rd):-></label>
+            <select name="Pclass" id="Pclass">
+                <option value="1">Pclass 1</option>
+                <option value="2">Pclass 2</option>
+                <option value="3">Pclass 3</option>
+            </select>
+            <h1>  </h1>
+            <label for="Age">Age:-></label>
+            <input type="text" name="Age" id="Age" placeholder="Age">
+            <label for="SibSp">SibSp(Number of siblings/spouses on board):-></label>  <input type="text" name="SibSp" id="SibSp">
+            <h1>  </h1>
+            <label for="Parch">Parch(Number of parents/children on board):-></label>  <input type="text" name="Parch" id="Parch">
+            <h1>  </h1>
+            <label for="Fare">Fare(Price paid for ticket):-></label>  <input type="text" name="Fare" id="Fare">
+            <h1>  </h1>
+            <h1>  </h1>
+            <label for="Sex">sex:-></label>
+            <select name="Sex" id="Sex">
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+
+            </select>
+                      <input type="submit" value="Predict">
+         </form>
+    </div>
+    
+</body>
+</html>
